@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "ua-poltava-digital-office.idp-support-router"
+name: "Support router for displaced residents"
+type: "workflow"
+version: "1.0.0"
+summary: "Routes a displaced resident's request to the right regional service, with the documents each one needs."
+description: "Encodes the region's referral map for internally displaced people: housing, payments, documents and health, with the documents each service asks for."
+publisher:
+  environment: "ua-poltava-digital-office"
+  body: "Poltava Regional Digital Services Office"
+languages: ["uk", "en"]
+license: "EUPL-1.2"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/idp-support-router"
+domains: ["social-protection", "public-administration"]
